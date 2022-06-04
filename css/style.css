@@ -11,7 +11,17 @@ input::-webkit-inner-spin-button {
     box-sizing: border-box;
 }
 
-/* ---------------- */
+/* ------------------------------------------- */
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bgPic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    min-height: 120vh;
+    position: relative;
+}
 h1 {
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
@@ -31,16 +41,6 @@ button:active {
     outline: none;
     border: none;
     color: white;
-}
-
-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bgPic.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: whitesmoke;
-    min-height: 120vh;
-    position: relative;
 }
 
 .container {
@@ -65,12 +65,10 @@ input,
 button {
     color: rgba(196, 196, 196, 0.76);
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: rgba(0, 0, 0, 0.5);
     transition: all 0.1s ease;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.329);
-
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
 }
-
 
 button {
     width: 100%;
