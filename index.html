@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 16 - Javascript Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon"
+        href="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+        type="image/png">
+</head>
+
+<body>
+    <div class="shape-blob"></div>
+	<div class="shape-blob one"></div>
+	<div class="shape-blob two"></div>
+    <h1>Simple Calculator Made Using Javascript</h1>
+    <div class="container">
+        <div id="displayContainer">
+            <input type="text" name="display" id="display">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="operators"><button onclick="getInput('/')">&divide;</button></td>
+                    <td class="operators"><button onclick="getInput('*')">&times;</button></td>
+                    <td class="operators"><button onclick="getInput('+')">+</button></td>
+                    <td class="operators"><button onclick="getInput('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getInput('7')">7</button></td>
+                    <td><button onclick="getInput('8')">8</button></td>
+                    <td><button onclick="getInput('9')">9</button></td>
+                    <td class="operators"><button onclick="getInput('c')" class="red">C</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getInput('4')">4</button></td>
+                    <td><button onclick="getInput('5')">5</button></td>
+                    <td><button onclick="getInput('6')">6</button></td>
+                    <td class="operators" style="width: 25%"><button class="red" onclick="getInput('DEL')">Del</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button onclick="getInput('1')">1</button></td>
+                    <td><button onclick="getInput('2')">2</button></td>
+                    <td><button onclick="getInput('3')">3</button></td>
+                    <td class="operators"><button onclick="getInput('.')">.</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getInput('+/-')">+/-</button></td>
+                    <td><button onclick="getInput('0')">0</button></td>
+                    <td class="operators" colspan="2"><button class='equal' onclick="getInput('=')">=</button></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+</body>
+<!-- Script src -->
+<script src="js/script.js"></script>
+<!-- ---------- -->
+
+</html>
